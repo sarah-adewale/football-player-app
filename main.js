@@ -12,7 +12,7 @@ async function apiRequest(){
         document.getElementById('playerPosition').innerText = data.position
         document.getElementById('playerCareer').innerText = data.careerGoals
         document.getElementById('playerClub').innerText = data.club
-        document.getElementById('playerAge').innerText = data.Nationality
+        document.getElementById('playerNationality').innerText = data.Nationality
 
         document.getElementById('playerImage').src = data.image
     }catch(error){
